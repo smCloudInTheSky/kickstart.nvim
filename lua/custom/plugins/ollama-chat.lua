@@ -60,8 +60,8 @@ return {
     -- you can also choose "current" and "tmp"
     quick_chat_file = 'ollama-chat.md',
     animate_spinner = true, -- set this to false to disable spinner animation
-    model = 'mistral',
-    model_code = 'codellama',
+    model = 'mistral:instruct',
+    model_code = 'codegemma:7b-code',
     url = 'http://127.0.0.1:11434',
     serve = {
       on_start = false,
